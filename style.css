@@ -1,0 +1,20 @@
+:root {
+    --gradient-dark-red: linear-gradient(to right, #100a0b, #461e1c);
+    --gradient-light-red: linear-gradient(to right, #4f1e05, #a63302);
+}
+
+body {
+    background: linear-gradient(to right, #100a0b, #461e1c, #100a0b);;
+    color: #ffffff;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, 1fr, 100px;
+}

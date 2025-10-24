@@ -1,0 +1,5 @@
+CSS Grid Commands:
+https://css-tricks.com/snippets/css/complete-guide-grid/?authuser=0
+
+Figma Project: 
+https://www.figma.com/design/E9cBvkkk9b0mPsOvL56W4y/Layout---Aula-de-estrutura-semantica?node-id=1-10&t=w6urxSDhlJvv7RCJ-1&authuser=0

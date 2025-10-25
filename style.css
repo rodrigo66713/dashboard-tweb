@@ -1,20 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --gradient-dark-red: linear-gradient(to right, #100a0b, #461e1c);
     --gradient-light-red: linear-gradient(to right, #4f1e05, #a63302);
 }
 
 body {
-    background: linear-gradient(to right, #100a0b, #461e1c, #100a0b);;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #100a0b, #461e1c, #100a0b);
     color: #ffffff;
     font-family: "League Spartan", sans-serif;
     font-weight: 400;
+
+    overflow: hidden;
 }
 
-input:hover {
-    cursor: pointer;
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.container {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr, 1fr, 100px;
+.grid-content .grid-left {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 450px 350px auto;
+}
+
+.grid-content .grid-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+        "#item-6 #item-9"
+        "#item-7 #item-9"
+        "#item-7 #item-10"
+        "#item-8 #item-10"
+    ;
+}
+
+
+/* images */
+#item-1 {
+    background-image: url("./img/kyoto-landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#item-3 {
+    background-image: url("./img/kyoto-woman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#item-7 {
+    background-image: url("./img/kyoto-street.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#item-9 {
+    background-image: url("./img/cherry-blossom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#item-10 {
+    background-image: url("./img/japanese-food.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

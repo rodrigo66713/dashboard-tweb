@@ -52,7 +52,7 @@ body {
 }
 
 #item-3 {
-    background-image: url("./img/kyoto-woman.jpg");
+    background-image: url("./img/kyoto-woman.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 #item-9 {
-    background-image: url("./img/cherry-blossom.jpg");
+    background-image: url("./img/cherry-blossom.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
